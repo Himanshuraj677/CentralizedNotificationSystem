@@ -19,8 +19,8 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
     <div className={`bg-gray-50 text-gray-800 h-screen w-64 fixed top-0 left-0 z-50 md:static transition-transform duration-300 border ${isOpen ? 'translate-x-0' : '-translate-x-full md:absolute'}`}>
         <div className='flex flex-row justify-between h-14 border-b p-4 items-center'>
           <div className='flex flex-row gap-1'>
-            <Send />
-            <div className="text-xl">NotifyEdu</div>
+            <Send className="text-xl text-primaryColor font-bold"/>
+            <div className="text-xl text-primaryColor font-bold">NotifyEdu</div>
           </div>
           <X className='md:hidden cursor-pointer' onClick={toggleSidebar}/>
         </div>

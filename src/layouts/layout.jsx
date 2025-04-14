@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Outlet } from 'react-router-dom'
-import Navbar from '../components/ui/navbar'
+import Navbar from '../components/ui/navbar/platformAdmin'
 import Sidebar from '../components/ui/sidebar'
 import BreadCrumb from '../components/ui/breadCrumb'
 
